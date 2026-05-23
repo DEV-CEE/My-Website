@@ -1,6 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 h1{
     background: rgb(78, 78, 211);
     color: white;
     text-align: center;
     box-shadow: 0 0 10px 0 black;
+    margin: 0 20px 0 20px;
+}
+
+body{
+    background: rgb(78, 78, 211);
+    height: 100vh;
+}
+
+.wrapper{
+    background: #fff;
+    height: 100vh;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
 }
